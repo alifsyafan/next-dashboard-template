@@ -1,3 +1,7 @@
+// /app/layout.js
+
+import "@/app/ui/global.css";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
