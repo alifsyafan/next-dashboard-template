@@ -31,9 +31,8 @@ export default function Page() {
             src="/hero-desktop.png"
             width={560}
             height={620}
-            className="mobile-image"
-            alt="Screenshots of the dashboard 
-            project showing desktop version"
+            className="block md:hidden"
+            alt="Gambar untuk mobile"
           />
         </div>
         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black" />
